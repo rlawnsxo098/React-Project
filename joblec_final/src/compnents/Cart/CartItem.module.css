@@ -1,0 +1,40 @@
+
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+  
+.cartItem h2 {
+    margin: 0 0 0.5rem 0;
+    color: #0c2461;
+}
+
+.summary {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    font-weight: bold;
+    color: #4a69bd;
+}
+
+.headcount {
+    font-weight: bold;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    color: #363636;
+}
+
+@media (min-width: 768px) {
+    .actions {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,14 @@
+.button {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0.25rem 1rem; /*상하, 좌우*/
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background-color: red;
+    border: 1px solid red;
+}
